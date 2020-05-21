@@ -5,7 +5,7 @@ const mapStyles = {
   map: {
     position: 'absolute',
     width: '100%',
-    height: '100%'
+    height: '80vh'
   }
 };
 
@@ -123,8 +123,8 @@ export default CurrentLocation;
 CurrentLocation.defaultProps = {
   zoom: 14,
   initialCenter: {
-    lat: -1.2884,
-    lng: 36.8233
+    lat: 37.7749,
+    lng: -122.4194
   },
   centerAroundCurrentLocation: false,
   visible: true
